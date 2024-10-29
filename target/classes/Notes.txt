@@ -1,0 +1,37 @@
+Framework developement
+-------------------------
+
+Pre-requisites:
+-----
+Step 1: Create Maven Project
+Step 2: Update pom.xml with required dependencies.
+Step 3: Create Folder structure
+------------------
+Step 4:  Create Routes.java  -----> contains URL's
+Step 5: Create UserEndPoints.java   -----> CRUD methods implementation
+-------------
+
+Step 6 :  Create test cases
+
+Step 7:   Create data driven test
+			excel sheet	data
+			ExcelUtility
+			Dataproviders
+
+Step 7: Generate extent reports
+
+		Extent reportutility
+		testng.xml file
+
+Step 8 : Add logs
+			log4j2 dependency
+			log4j2.xml   ---> src/test/resource
+
+
+			
+
+
+
+
+
+

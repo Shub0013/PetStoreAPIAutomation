@@ -1,0 +1,58 @@
+
+
+Java version issue: https://stackoverflow.com/questions/9170832/list-of-java-class-file-format-major-version-numbers
+
+
+Project loc: C:\Users\pavan\restAssuredTraining\PetStoreAutomation
+
+
+1) Execute tests using pom.xml within eclipse
+
+2) Execute tests using pom.xml in command prompt.
+
+3) commit code in local repository ( git)
+
+4) push your code to remote repository ( github)
+
+5) run project in jenkins ( from git github)
+
+--------------------------------------------
+
+CI Process
+---------------
+Pre-requisites
+---------------
+1) install git s/w
+2) create an account with github and create emtry repository.
+		Repo URL:    https://github.com/pavanoltraining/PetStoreAutomation.git
+
+ ------------------------------
+
+Working Project loc: C:\Users\pavan\restAssuredTraining\PetStoreAutomation
+
+
+1) git init   ---> create an emtpy local repository   (one time)
+
+2) git config --global user.name  "your name"            (one time)
+    git config --global user.email  "abc@gmail.com"
+
+3) git status
+
+
+4) git add -A   --> add all the files & folders to staging area.
+   git add filename.ext
+   git add *.ext
+   git add foldernamegit commit -m  "commit message"
+
+5) git commit -m "comment"
+
+
+--------------------------------------
+Push the code to remote repository
+ 6) git remote add origin "url"    ---> local repository connected with remote repository.(one time)
+
+ 7) git push -u origin master
+
+
+
+
